@@ -152,7 +152,7 @@ struct ContentView: View {
                 }
                 .padding()
             }
-            .navigationTitle("Video Transcoder")
+            .navigationTitle("Pineapple Juice 🍍")
             .alert("Transcoding Error", isPresented: $showError) {
                 Button("OK", role: .cancel) { }
             } message: {
